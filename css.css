@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  display: flex;
+}
+
+.Flipped {
+  direction: rtl;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: rgb(145, 145, 145);
+  border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(81, 119, 117);
+  border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00eeff70;
+}
+
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 55px;
+  height: 8px;
+  background-color: #ffffff;
+  margin: 3px 0;
+  margin-top: 5.5px;
+  position: absolute;
+  top: 1.7em;
+  right: 2em;
+}
+
+li {
+  position: absolute;
+  top: 10.2em;
+  font-size: 1.1em;
+  right: 0.5em;
+}
+
+.menu-content li a:hover {
+  color: rgb(0, 174, 255);
+}
+
+.logo1 h1 {
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0em;
+  left: -700%;
+}
+
+
+.logo1 img {
+  position: absolute;
+  margin-top: -1.8em;
+  left: -820%;
+  height: 5em;
+  width: 7em;
+}
+
+.foto1 img {
+  position: absolute;
+  top: 10em;
+  right: 10em;
+  width: 80%;
+  height: 17em;
+  border-radius: 5em;
+}
+
+.foto2 img {
+  position: absolute;
+  top: 48%;
+  height: 20em;
+  width: 20em;
+  left: 17em;
+}
+
+.foto3 img {
+  position: absolute;
+  height: 15em;
+  width: 20em;
+  top: 52%;
+  left: 50em;
+  border-radius: 4em;
+}
+
+.foto4 img {
+  position: absolute;
+  height: 15em;
+  width: 20em;
+  top: 52%;
+  left: 85em;
+  border-radius: 4em;
+}
+
+.foto5 img {
+  position: absolute;
+  height: 15em;
+  width: 20em;
+  top: 85%;
+  left: 50em;
+  border-radius: 4em;
+}
+
+.foto6 img {
+  position: absolute;
+  height: 15em;
+  width: 20em;
+  top: 85%;
+  left: 17em;
+  border-radius: 4em;
+}
+.foto7 img {
+  position: absolute;
+  height: 15em;
+  width: 20em;
+  top: 85%;
+  left: 85.5em;
+  border-radius: 4em;
+  }
+
+  .foto1:hover .msg1 {
+    display: block;
+  }
+
+  .msg1 {
+    display: none;
+    position: absolute;
+    bottom: 48%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(51, 51, 51);
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 40px;
+    z-index: 4;
+  }
+  .foto2:hover .msg2 {
+    display: block;
+  }
+
+  .msg2 {
+    display: none;
+    position: absolute;
+    bottom: 20%;
+    left: 25%;
+    transform: translateX(-50%);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 24px;
+    
+  }
+  .foto3:hover .msg3 {
+    display: block;
+  }
+
+  .msg3 {
+    display: none;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 24px;
+  }
+
+  .foto4:hover .msg4 {
+    display: block;
+  }
+
+  .msg4 {
+    display: none;
+    position: absolute;
+    bottom: 20%;
+    left: 80%;
+    transform: translateX(-50%);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 24px;
+  }
+  .foto5:hover .msg5 {
+    display: block;
+  }
+
+  .msg5 {
+    display: none;
+    position: absolute;
+    bottom: -14%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 5;
+    font-size: 24px;
+  }
+  .foto6:hover .msg6 {
+    display: block;
+  }
+
+  .msg6 {
+    display: none;
+    position: absolute;
+    bottom: -14%;
+    left: 23%;
+    transform: translateX(-50%);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 24px;
+  }
+  .foto7:hover .msg7 {
+    display: block;
+  }
+
+  .msg7 {
+    display: none;
+    position: absolute;
+    bottom: -14%;
+    left: 80%;
+    transform: translateX(-50%);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 24px;
+  }
