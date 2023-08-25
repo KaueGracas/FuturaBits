@@ -1,0 +1,331 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+}
+
+.menu {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 29px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 3px 0;
+  margin-top: 5.5px;
+  position: relative;
+  top: 1.7em;
+  right: 2em;
+}
+.retangulo-menu {
+position: fixed;
+width: 100%;
+height: 15%;
+background-color: rgb(0, 0, 0);
+z-index: -1;
+margin-right: 100%;
+margin-top: -1.7em;
+}
+li{
+  position: relative;
+  top: 10.2em;
+  font-size: 1.1em;
+  right: 0.5em;
+}
+.menu-content li a:hover {
+  color: rgb(0, 174, 255); 
+}
+.FuturaBits{
+  font-weight:lighter;
+  color: white;
+  position: relative;
+  top: -2.35em;
+  right: 550%;
+}
+.logo img{
+  position: relative;
+  top: -0.3em;
+  right: 620%;
+}
+.titulo-faq h1{
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  position: relative;
+  top: 6em;
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+}
+.titulo-faq img{
+  font-size: 23px;
+  position: relative;
+  top: 6em;
+  left: 65em;
+}
+.pergunta1 p{
+  width: 21em;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+  top: 11em;
+  left: 12em;
+}
+.pergunta2 p{
+  width: 21em;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+  top: 11em;
+  left: 36em;
+}
+.pergunta3 p{
+  width: 21em;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+  top: -9.5em;
+  left: 60em;
+}
+.pergunta4 p{
+  width: 21em;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+  top: 4em;
+  left: 12em;
+  line-height: normal;
+}
+.pergunta5 p{
+  width: 21em;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+  top: 4em;
+  left: 36em;
+  line-height: normal;
+}
+.pergunta6 p{
+  width: 21em;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+  top: -15.5em;
+  left: 60em;
+  line-height: normal;
+}
+.pergunta7 p{
+  width: 21em;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+  top: -4em;
+  left: 12em;
+  line-height: normal;
+}
+.pergunta8 p{
+  width: 21em;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+  top: -6em;
+  left: 36em;
+  line-height: normal;
+}
+.pergunta9 p{
+  width: 21em;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+  top: -24.5em;
+  left: 60em;
+  line-height: normal;
+}
+.titulo-duvida h1{
+color: #000;
+font-family: 'Serif';
+font-size: 2.2em;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+display: flex;
+justify-content: center;
+position: relative;
+top: -4em;
+}
+.titulo-duvida p{
+color: #000;
+font-family: 'Inter';
+font-size: 1.2em;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+letter-spacing: -0.2px;
+display: flex;
+justify-content: center;
+position: relative;
+top: -8em;
+}
+.input-text input{
+font-size: 2.5em;
+border-radius: 64px;
+border: 1px solid #797979;
+background: #D9D9D9;
+display: block;
+position: relative;
+left: 37%;
+text-align: center;
+font-weight: lighter;
+position: relative;
+top: -4em;
+}
+.eclipse{
+width: 38px;
+height: 38px;
+flex-shrink: 0;
+border-radius: 50%;
+background-color: rgba(120, 110, 149, 0.58);
+position: absolute;
+top: 123.5em;
+left: 72em;
+}
+.lupa img{
+  position: absolute;
+top: 123.9em;
+left: 72.4em;
+}
+::placeholder{
+  font-size: 20px;
+  font-family: system-ui, -apple-system, 'Open Sans', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;;
+  position: relative;
+  top: -0.2em;
+  left: -7em;
+}
+.retanguilu {
+  position: absolute;
+  background-color: black;
+  height: 12%;
+  width: 150em;
+  top: 226%;
+  z-index: -1;
+  right: 0%;
+}
+
+.logo1 img {
+  position: absolute;
+  top: 227%;
+  width: 8%;
+  height: 9%;
+  left: 3%;
+}
+
+.batata {
+  position: absolute;
+  top: 228%;
+  left: 13%;
+  font-size: 1.8em;
+  color: aliceblue;
+}
+
+.batata2 {
+  position: absolute;
+  top: 231%;
+  left: 15%;
+  font-size: 1.8em;
+  color: aliceblue;
+}
+
+.batata3 {
+  position: absolute;
+  top: 227.5%;
+  left: 23%;
+  font-size: 1.5em;
+  color: aliceblue;
+  width: 6%;
+}
+
+.rodape1 img {
+  position: absolute;
+  top: 228.5%;
+  left: 32%;
+  height: 7%;
+  width: 5%;
+}
+
+.rodape2 img {
+  position: absolute;
+  top: 228.5%;
+  left: 42%;
+  height: 7%;
+  width: 5%;
+}
+
+.rodape3 img {
+  position: absolute;
+  top: 228.9%;
+  left: 53%;
+  height: 7%;
+  width: 5%;
+}
+
+.rodape4 img {
+  position: absolute;
+  top: 228.5%;
+  left: 64%;
+  height: 7%;
+  width: 5%;
+}
+
+.batata4 {
+  position: absolute;
+  top: 231%;
+  left: 80%;
+  font-size: 1.4em;
+  color: aliceblue;
+  width: 13em;
+}
+
+.batata5 {
+  position: absolute;
+  top: 228%;
+  left: 77%;
+  font-size: 1.4em;
+  color: aliceblue;
+  width: 13em;
+}
+
+.minhabola img {
+  position: absolute;
+  top: 233.9%;
+  left: 77.8%;
+  height: 2%;
+  width: 2%;
+}
+
+.euntenhobola img {
+  position: absolute;
+  top: 231.3%;
+  left: 77.8%;
+  height: 2%;
+  width: 2%;
+}
+

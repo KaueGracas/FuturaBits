@@ -1,0 +1,108 @@
+.retanguilu {
+    position: absolute;
+    background-color: black;
+    height: 12%;
+    width: 150em;
+    top: 248%;
+    z-index: -1;
+    right: 0%;
+}
+
+.logo img {
+    position: absolute;
+    top: 250%;
+    width: 8%;
+    height: 9%;
+    left: 3%;
+}
+
+.batata {
+    position: absolute;
+    top: 251%;
+    left: 13%;
+    font-size: 1.8em;
+    color: aliceblue;
+}
+
+.batata2 {
+    position: absolute;
+    top: 254%;
+    left: 16.5%;
+    font-size: 1.8em;
+    color: aliceblue;
+}
+
+.batata3 {
+    position: absolute;
+    top: 250%;
+    left: 23%;
+    font-size: 1.5em;
+    color: aliceblue;
+    width: 6%;
+}
+
+.rodape1 img {
+    position: absolute;
+    top: 250%;
+    left: 32%;
+    height: 7%;
+    width: 5%;
+}
+
+.rodape2 img {
+    position: absolute;
+    top: 250%;
+    left: 42%;
+    height: 7%;
+    width: 5%;
+}
+
+.rodape3 img {
+    position: absolute;
+    top: 249.7%;
+    left: 53%;
+    height: 7%;
+    width: 5%;
+}
+
+.rodape4 img {
+    position: absolute;
+    top: 250%;
+    left: 64%;
+    height: 7%;
+    width: 5%;
+}
+
+.batata4 {
+    position: absolute;
+    top: 253%;
+    left: 80%;
+    font-size: 1.4em;
+    color: aliceblue;
+    width: 13em;
+}
+
+.batata5 {
+    position: absolute;
+    top: 249%;
+    left: 77%;
+    font-size: 1.4em;
+    color: aliceblue;
+    width: 13em;
+}
+
+.minhabola img {
+    position: absolute;
+    top: 253.5%;
+    left: 78.5%;
+    height: 2%;
+    width: 1%;
+}
+
+.euntenhobola img {
+    position: absolute;
+    top: 256.35%;
+    left: 78.5%;
+    height: 1.75%;
+    width: 1%;
+}

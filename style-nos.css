@@ -1,0 +1,246 @@
+
+.menu-content {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-left: 82%;
+    border-radius: 10px;
+  }
+  
+  .menu-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-content ul li a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   top: 5%;
+   margin: 15%;
+
+  }
+  #closeButton img  {
+height: 5%;
+width: 5%;
+position: absolute;
+left: 2.5%;
+top: 30%;
+  }
+  #closeButton {
+    background-color: black;
+    border-style: none;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .Flipped {
+    direction: rtl;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(145, 145, 145);
+    border-radius: 5px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(81, 119, 117);
+    border-radius: 5px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00eeff70;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 29px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 3px 0;
+    margin-top: 5.5px;
+    position: relative;
+    top: 1.7em;
+    right: 2em;
+  }
+  
+  .batata1 {
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(0, 0, 0);
+    z-index: -2;
+    margin-right: 100%;
+    margin-top: -1.7em;
+  }
+  
+  li {
+    position: relative;
+    top: 10.2em;
+    font-size: 1.1em;
+    right: 0.5em;
+  }
+  
+  .menu-content li a:hover {
+    color: rgb(0, 174, 255);
+  }
+  
+  .FuturaBits {
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -2.6em;
+    right: 575%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo1 img {
+    position: relative;
+    top: -0.8em;
+    right: 650%;
+  }
+
+  /* RODAPE */
+
+  .retanguilu {
+    position: absolute;
+    background-color: black;
+    height: 12%;
+    width: 100.85%;
+    left: -1em;
+    top: 108%;
+    z-index: -1;
+}
+
+.logo img {
+    position: absolute;
+    top: 110%;
+    width: 8%;
+    height: 9%;
+    left: 3%;
+}
+
+.batata {
+    position: absolute;
+    top: 111%;
+    left: 13%;
+    font-size: 1.8em;
+    color: aliceblue;
+    background-color: transparent;
+    height: 3%;
+    width: 1%;
+}
+
+.batata2 {
+    position: absolute;
+    top: 114.4%;
+    left: 16.5%;
+    font-size: 1.8em;
+    color: aliceblue;
+}
+
+.batata3 {
+    position: absolute;
+    top: 109.5%;
+    left: 23%;
+    font-size: 1.5em;
+    color: aliceblue;
+    width: 6%;
+}
+
+.rodape1 img {
+    position: absolute;
+    top: 111%;
+    left: 32%;
+    height: 6%;
+    width: 5%;
+}
+
+.rodape2 img {
+    position: absolute;
+    top: 111%;
+    left: 42%;
+    height: 6%;
+    width: 5%;
+}
+
+.rodape3 img {
+    position: absolute;
+    top: 111%;
+    left: 53%;
+    height: 6%;
+    width: 5%;
+}
+
+.rodape4 img {
+    position: absolute;
+    top: 111%;
+    left: 64%;
+    height: 6%;
+    width: 5%;
+}
+
+.batata4 {
+    position: absolute;
+    top: 111%;
+    left: 80%;
+    font-size: 1.4em;
+    color: aliceblue;
+    width: 13em;
+}
+
+.batata5 {
+    position: absolute;
+    top: 108.4%;
+    left: 78%;
+    font-size: 1.4em;
+    color: aliceblue;
+    width: 13em;
+}
+
+.minhabola img {
+    position: absolute;
+    top: 114%;
+    left: 77.8%;
+    height: 2%;
+    width: 2%;
+}
+
+.euntenhobola img {
+    position: absolute;
+    top: 111.5%;
+    left: 77.8%;
+    height: 2%;
+    width: 2%;
+}
+
+
+

@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  display: flex;
+}
+
+.Flipped {
+  direction: rtl;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: rgb(145, 145, 145);
+  border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(81, 119, 117);
+  border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00eeff70;
+}
+
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 55px;
+  height: 8px;
+  background-color: #ffffff;
+  margin: 3px 0;
+  margin-top: 5.5px;
+  position: absolute;
+  top: 1.7em;
+  right: 2em;
+}
+
+.batata1 {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  background-color: rgb(0, 0, 0);
+  z-index: -2;
+  margin-right: 100%;
+  margin-top: -1.7em;
+}
+
+li {
+  position: absolute;
+  top: 10.2em;
+  font-size: 1.1em;
+  right: 0.5em;
+}
+
+.menu-content li a:hover {
+  color: rgb(0, 174, 255);
+}
+.villain img {
+  position: absolute;
+}
+
+.sobre {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+
+}
+
+.sobre2 {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+
+.texto {
+  position: absolute;
+  left: 7%;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  top: 30%;
+  text-align: center;
+}
+
+.parceiros {
+  position: absolute;
+  left: 60%;
+  top: 20%;
+}
+
+.pichau {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+}
+
+.techtudo {
+  position: absolute;
+  left: 65%;
+  top: 35%;
+}
+
+.qisso {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+}
+
+.google {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+}
+
+.aws {
+  position: absolute;
+  left: 70%;
+  top: 70%;
+}
+.ampliada-container {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(5px);
+	z-index: 9999;
+}
+.ampliada-image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 90%;
+	max-height: 90%;
+}
